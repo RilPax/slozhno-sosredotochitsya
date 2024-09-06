@@ -2,3 +2,20 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+:root {
+  --font-family: 'IBM Plex mono';
+  --font-smal-size: 18px;
+  --font-heading-size-laptop-desctop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --font-heading-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+  --line-height-xl: 99px;
+  --line-height-l: 25px;
+  --line-height-m: 23.4px;
+  --line-height-s: 18px;
+  --small-gap: 10px;
+  --medium-gap: 20px;
+  --large-gap: 40px;
+  --xlarge-gap: 60px;
+  --xxlarge-gap: 80px;
+}
