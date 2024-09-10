@@ -22,12 +22,9 @@
   --block-heading-text-color: var(--color-black);
   --corners-color: var(--color-black);
   --button-color: var(--color-black);
-  --border-light-bottom-color: var(--color-black);
-  --border-dark-bottom-color: inherit;
-  --dark-border-weight: none; 
-  --dark-border-type: none; 
-  --light-border-weight: 1px;
-  --light-border-type: solid;
+  --border-button-color: var(--color-black);
+  --border-weight: 1px;
+  --border-type: solid;
   --border-button-color: var(--color-black);
   --borders-outline-color: rgba(50, 49, 45, 0.4);
   --background-header-image: url('../images/cover-image-light.png');
@@ -37,5 +34,30 @@
 @media (prefers-color-scheme: light) {
   .header_rec {
     display: var(--hearer-rec-display);
+  }
+
+  .page.theme_auto {
+    /* сохраните этот селектор в приведённом виде.
+      Так стили написанные ниже будут иметь больший вес,
+      чем стили в медиазапросе предпочтений пользователя
+    */
+    --color-pink: #FF8DCB;
+    --color-black: #353430;
+    --hearer-rec-display: none;
+    --background-color: #FFF1F7;
+    --background-text-color: var(--color-pink);
+    --header-footer-text-color: #FFC2E6;
+    --shadow-color: var(--color-pink);
+    --default-text-color: var(--color-black);
+    --article-heading-font-color: var(--color-black);
+    --block-heading-text-color: var(--color-black);
+    --corners-color: var(--color-black);
+    --button-color: var(--color-black);
+    --border-button-color: var(--color-black);
+    --border-weight: 1px;
+    --border-type: solid;
+    --border-button-color: var(--color-black);
+    --borders-outline-color: rgba(50, 49, 45, 0.4);
+    --background-header-image: url('../images/cover-image-light.png');
   }
 }
